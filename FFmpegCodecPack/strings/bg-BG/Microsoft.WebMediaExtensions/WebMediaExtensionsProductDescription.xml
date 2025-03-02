@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProductDescription language="en-us" xmlns="http://schemas.microsoft.com/appx/2012/ProductDescription" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Release="1808">
+
+  <!-- Valid length: 200 character limit -->
+  <AppStoreName>
+    <!-- This is optional.  AppStoreName is typically extracted from your package's AppxManifest DisplayName property. -->
+    Разширения за мултимедия в уеб
+  </AppStoreName>
+
+  <Keywords>
+    <!-- Valid length: 45 character limit, up to 7 -->
+    <Keyword>ogg</Keyword>
+    <Keyword>vorbis</Keyword>
+    <Keyword>theora</Keyword>
+    <Keyword>кодек</Keyword>
+    <Keyword/>
+    <Keyword/>
+    <Keyword/>
+  </Keywords>
+   <!-- Valid length: 10000 character limit -->
+   <Description>
+Вече може да изпълнявате видеоформати с отворен код от интернет. Това включва видеофайлове, които се съхраняват в контейнера за OGG видеоклипове, и видеоклипове, които използват кодеците Vorbis или Theora. След като инсталирате „Разширения за мултимедия в уеб“, можете да изпълнявате тези видове видеоклипове в Microsoft Edge или в приложение за видеоклипове, инсталирано на Windows 10.
+
+Включени технологии:
+• Анализатор на OGG контейнер
+• Декодер
+• Декодер на Theora
+   </Description>
+
+   <!-- Valid length: 1500 character limit, optional -->
+   <ReleaseNotes>
+      Първоначална версия.
+   </ReleaseNotes>
+
+  <ScreenshotCaptions>
+    <!-- Valid length: 200 character limit, up to 9 elements per platform -->
+    <!-- Valid attributes: any of DesktopImage, MobileImage, XboxImage, SurfaceHubImage, and HoloLensImage -->
+    <Caption DesktopImage="wme-screenshot.png" MobileImage="wme-screenshot.png" XboxImage="wme-screenshot.png" SurfaceHubImage="wme-screenshot.png" HoloLensImage="wme-screenshot.png">
+    Разширения за мултимедия в уеб</Caption>
+  </ScreenshotCaptions>
+
+   <AppFeatures>
+     <!-- Valid length: 200 character limit, up to 20 -->
+     <AppFeature>Разширява Windows 10, така че да изпълнява съдържание, кодирано с OGG, Vorbis и Theora.</AppFeature>
+   </AppFeatures>
+
+   <RecommendedHardware>
+      <!-- Valid length: 200 character limit, up to 11 -->
+   </RecommendedHardware>
+
+   <!-- Valid length: 200 character limit -->
+   <CopyrightAndTrademark>
+     (c) 2017 Microsoft
+   </CopyrightAndTrademark>
+
+   <!-- Valid length: 10000 character limit -->
+   <AdditionalLicenseTerms>
+	https://go.microsoft.com/fwlink/?LinkId=822631
+   </AdditionalLicenseTerms>
+
+   <!-- Valid length: 2048 character limit -->
+   <WebsiteURL>
+   </WebsiteURL>
+
+   <!-- Valid length: 2048 character limit -->
+   <SupportContactInfo>
+	https://support.microsoft.com/products/windows?os=windows-10
+   </SupportContactInfo>
+
+   <!-- Valid length: 2048 character limit -->
+   <PrivacyPolicyURL>
+     https://go.microsoft.com/fwlink/?LinkId=521839
+   </PrivacyPolicyURL>
+
+</ProductDescription>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProductDescription language="en-us" xmlns="http://schemas.microsoft.com/appx/2012/ProductDescription" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Release="1701">
+
+  <!-- Valid length: 200 character limit -->
+  <AppStoreName>
+    <!-- This is optional.  AppStoreName is typically extracted from your package's AppxManifest DisplayName property. -->
+    Vefmiðlunarviðbætur
+  </AppStoreName>
+
+  <Keywords>
+    <!-- Valid length: 45 character limit, up to 7 -->
+    <Keyword>ogg</Keyword>
+    <Keyword>vorbis</Keyword>
+    <Keyword>theora</Keyword>
+    <Keyword>kóðari</Keyword>
+    <Keyword/>
+    <Keyword/>
+    <Keyword/>
+  </Keywords>
+   <!-- Valid length: 10000 character limit -->
+   <Description>
+Pakkinn með vefmiðlunarviðbótunum bætir stuðningi við algeng snið með opnum kóða á vefnum við Microsoft Edge og Windows 10. Með því að setja þennan pakka með miðlunarviðbótum upp geta notendur spilað efni úr OGG-geyminum eða efni kóðað með Vorbis- eða Theora-kóðurunum i tækjum sínum. Þegar viðbótin hefur verið sett upp er hún sjálfkrafa notuð bæði á vefsvæðum og í forritum án þess að notandi þurfi að aðhafast nokkuð. Settu einfaldlega upp og spilaðu nýtt efni í Microsoft Edge og forritum strax í dag! 
+ 
+Innifalin tækni:
+•	Þáttari OGG-geymis
+•	Vorbis-afkóðari
+•	Theora-afkóðari
+
+   </Description>
+
+   <!-- Valid length: 1500 character limit, optional -->
+   <ReleaseNotes>
+      Upphaflegur útgáfudagur.
+   </ReleaseNotes>
+
+  <ScreenshotCaptions>
+    <!-- Valid length: 200 character limit, up to 9 elements per platform -->
+    <!-- Valid attributes: any of DesktopImage, MobileImage, XboxImage, SurfaceHubImage, and HoloLensImage -->
+    <Caption DesktopImage="wme-screenshot.png" MobileImage="wme-screenshot.png" XboxImage="wme-screenshot.png" SurfaceHubImage="wme-screenshot.png" HoloLensImage="wme-screenshot.png">
+    Vefmiðlunarviðbætur</Caption>
+  </ScreenshotCaptions>
+
+   <AppFeatures>
+     <!-- Valid length: 200 character limit, up to 20 -->
+     <AppFeature>Bætir stuðningi við spilun efnis sem kóðað er með OGG, Vorbis og Theora við Windows 10.</AppFeature>
+   </AppFeatures>
+
+   <RecommendedHardware>
+      <!-- Valid length: 200 character limit, up to 11 -->
+   </RecommendedHardware>
+
+   <!-- Valid length: 200 character limit -->
+   <CopyrightAndTrademark>
+     (c) 2017 Microsoft
+   </CopyrightAndTrademark>
+
+   <!-- Valid length: 10000 character limit -->
+   <AdditionalLicenseTerms>
+	https://go.microsoft.com/fwlink/?LinkId=529064
+   </AdditionalLicenseTerms>
+
+   <!-- Valid length: 2048 character limit -->
+   <WebsiteURL>
+   </WebsiteURL>
+
+   <!-- Valid length: 2048 character limit -->
+   <SupportContactInfo>
+	https://support.microsoft.com/products/windows?os=windows-10
+   </SupportContactInfo>
+
+   <!-- Valid length: 2048 character limit -->
+   <PrivacyPolicyURL>
+     https://go.microsoft.com/fwlink/?LinkId=521839
+   </PrivacyPolicyURL>
+
+</ProductDescription>

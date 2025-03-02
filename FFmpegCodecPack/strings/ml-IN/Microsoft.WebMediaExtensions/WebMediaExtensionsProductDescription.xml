@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProductDescription language="en-us" xmlns="http://schemas.microsoft.com/appx/2012/ProductDescription" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Release="1808">
+
+  <!-- Valid length: 200 character limit -->
+  <AppStoreName>
+    <!-- This is optional.  AppStoreName is typically extracted from your package's AppxManifest DisplayName property. -->
+    വെബ് മീഡിയ വിപുലീകരണങ്ങൾ
+  </AppStoreName>
+
+  <Keywords>
+    <!-- Valid length: 45 character limit, up to 7 -->
+    <Keyword>ogg</Keyword>
+    <Keyword>vorbis</Keyword>
+    <Keyword>theora</Keyword>
+    <Keyword>കോഡെക്ക്</Keyword>
+    <Keyword/>
+    <Keyword/>
+    <Keyword/>
+  </Keywords>
+   <!-- Valid length: 10000 character limit -->
+   <Description>
+ഇന്ന് വെബിൽ ലഭ്യമായ ഓപ്പൺ സോഴ്സ് വീഡിയോ ഫോർമാറ്റുകൾ പ്ലേ ചെയ്യുക. ഇതിൽ OGG വീഡിയോ കണ്ടെയ്നറിൽ സൂക്ഷിച്ചിരിക്കുന്ന വീഡിയോ ഫയലുകൾ ഒപ്പം Vorbis അല്ലെങ്കിൽ Theora കോഡെക്കുകൾ ഉപയോഗിക്കുന്ന വീഡിയോകൾ ഉൾപ്പെടുന്നു. നിങ്ങൾ വെബ് മീഡിയ വിപുലീകരണങ്ങൾ ഇൻസ്റ്റാൾ ചെയ്തതിന് ശേഷം, നിങ്ങൾക്ക് ഈ തരം വീഡിയോകൾ Microsoft Edge ൽ അല്ലെങ്കിൽ Windows 10 ൽ ഇൻസ്റ്റാൾ ചെയ്തിട്ടുള്ള ഒരു വീഡിയോ ആപ്പിൽ പ്ലേ ചെയ്യാം.
+
+ഉൾപ്പെട്ട സാങ്കേതികവിദ്യകൾ:
+•	OGG കണ്ടെയിനർ പാഴ്‌സർ
+•	Vorbis ഡീകോഡർ
+•	Theora ഡീകോഡർ
+   </Description>
+
+   <!-- Valid length: 1500 character limit, optional -->
+   <ReleaseNotes>
+      പ്രാരംഭ റിലീസ്.
+   </ReleaseNotes>
+
+  <ScreenshotCaptions>
+    <!-- Valid length: 200 character limit, up to 9 elements per platform -->
+    <!-- Valid attributes: any of DesktopImage, MobileImage, XboxImage, SurfaceHubImage, and HoloLensImage -->
+    <Caption DesktopImage="wme-screenshot.png" MobileImage="wme-screenshot.png" XboxImage="wme-screenshot.png" SurfaceHubImage="wme-screenshot.png" HoloLensImage="wme-screenshot.png">
+    വെബ് മീഡിയ വിപുലീകരണങ്ങൾ</Caption>
+  </ScreenshotCaptions>
+
+   <AppFeatures>
+     <!-- Valid length: 200 character limit, up to 20 -->
+     <AppFeature>OGG, Vorbis, Theora എൻകോഡ് ചെയ്‌ത ഉള്ളടക്കം പ്ലേ ചെയ്യാൻ Windows 10-നെ വിപുലീകരിക്കുന്നു.</AppFeature>
+   </AppFeatures>
+
+   <RecommendedHardware>
+      <!-- Valid length: 200 character limit, up to 11 -->
+   </RecommendedHardware>
+
+   <!-- Valid length: 200 character limit -->
+   <CopyrightAndTrademark>
+     (c) 2017 Microsoft
+   </CopyrightAndTrademark>
+
+   <!-- Valid length: 10000 character limit -->
+   <AdditionalLicenseTerms>
+	https://go.microsoft.com/fwlink/?LinkId=822631
+   </AdditionalLicenseTerms>
+
+   <!-- Valid length: 2048 character limit -->
+   <WebsiteURL>
+   </WebsiteURL>
+
+   <!-- Valid length: 2048 character limit -->
+   <SupportContactInfo>
+	https://support.microsoft.com/products/windows?os=windows-10
+   </SupportContactInfo>
+
+   <!-- Valid length: 2048 character limit -->
+   <PrivacyPolicyURL>
+     https://go.microsoft.com/fwlink/?LinkId=521839
+   </PrivacyPolicyURL>
+
+</ProductDescription>

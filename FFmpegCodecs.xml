@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Metadata about FFmpeg codecs and containers. -->
+<codecs
+    xmlns="http://tempuri.org/FFmpegCodecsSchema.xsd"
+    xmlns:mstns="http://tempuri.org/FFmpegCodecsSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- Audio Codecs -->
+  <codec>
+    <name>Vorbis</name>
+    <type>Audio</type>
+    <AVCodecID>AV_CODEC_ID_VORBIS</AVCodecID>
+    <MFType>MFAudioFormat_Vorbis</MFType>
+    <build>--enable-parser=vorbis --enable-decoder=vorbis</build>
+    <guid>8D2FD10B-5841-4A6B-8905-588FEC1ADED9</guid>
+  </codec>
+
+  <codec>
+    <name>Flac</name>
+    <type>Audio</type>
+    <AVCodecID>AV_CODEC_ID_FLAC</AVCodecID>
+    <MFType>MFAudioFormat_FLAC</MFType>
+    <build>--enable-decoder=flac --enable-demuxer=flac --enable-parser=flac</build>
+    <guid>0000F1AC-0000-0010-8000-00AA00389B71</guid>
+  </codec>
+
+  <codec>
+    <name>Opus</name>
+    <type>Audio</type>
+    <AVCodecID>AV_CODEC_ID_OPUS</AVCodecID>
+    <MFType>MFAudioFormat_Opus</MFType>
+    <build>--enable-decoder=opus --enable-parser=opus</build>
+    <guid>0000704F-0000-0010-8000-00AA00389B71</guid>
+  </codec>
+
+  <codec>
+    <name>Mulaw</name>
+    <type>Audio</type>
+    <AVCodecID>AV_CODEC_ID_PCM_MULAW</AVCodecID>
+    <MFType>MFAudioFormat_Mulaw</MFType>
+    <build>--enable-decoder=pcm_mulaw --enable-demuxer=pcm_mulaw</build>
+    <guid>00000007-0000-0010-8000-00AA00389B71</guid>
+  </codec>
+
+  <codec>
+    <name>DTS</name>
+    <type>Audio</type>
+    <AVCodecID>AV_CODEC_ID_DTS</AVCodecID>
+    <MFType>AudioFormat_DTS</MFType>
+    <build>--enable-decoder=dca --enable-parser=dca</build>
+    <guid>27D49720-91A6-4962-AAB8-D957CC82F4DD</guid>
+  </codec>
+
+  <codec>
+    <name>Asao</name>
+    <type>Audio</type>
+    <AVCodecID>AV_CODEC_ID_NELLYMOSER</AVCodecID>
+    <MFType>MFAudioFormat_Nellymoser</MFType>
+    <build>--enable-decoder=nellymoser</build>
+    <guid></guid>
+  </codec>
+
+
+  <!-- Video Codecs -->
+  <codec>
+    <name>Theora</name>
+    <type>Video</type>
+    <AVCodecID>AV_CODEC_ID_THEORA</AVCodecID>
+    <MFType>MFVideoFormat_Theora</MFType>
+    <MkvCodecId>V_THEORA</MkvCodecId>
+    <build>--enable-decoder=theora --enable-parser=vp3</build>
+    <guid>6F656874-0000-0010-8000-00AA00389B71</guid>
+  </codec>
+
+  <codec>
+    <name>Cineform</name>
+    <type>Video</type>
+    <AVCodecID>AV_CODEC_ID_CFHD</AVCodecID>
+    <MFType>MFVideoFormat_CFHD</MFType>
+    <build>--enable-decoder=cfhd</build>
+    <guid>43464844-767A-494D-B478-F29D25DC9037</guid>
+  </codec>
+
+  <codec>
+    <name>TechSmith</name>
+    <type>Video</type>
+    <AVCodecID>AV_CODEC_ID_TSCC</AVCodecID>
+    <MFType>MFVideoFormat_tscc</MFType>
+    <build>--enable-zlib --enable-decoder=tscc</build>
+    <guid>63637374-0000-0010-8000-00AA00389B71</guid>
+  </codec>
+
+  <codec>
+    <name>H264</name>
+    <type>Video</type>
+    <AVCodecID>AV_CODEC_ID_H264</AVCodecID>
+    <MFType>MFVideoFormat_H264</MFType>
+    <build>--enable-decoder=h264 --enable-demuxer=h264 --enable-parser=h264</build>
+    <guid>34363248-0000-0010-8000-00aa00389b71</guid>
+  </codec>
+
+  <codec>
+    <name>H263</name>
+    <type>Video</type>
+    <AVCodecID>AV_CODEC_ID_H263</AVCodecID>
+    <MFType>MFVideoFormat_H263</MFType>
+    <build>--enable-decoder=h263 --enable-decoder=h263i --enable-decoder=h263p --enable-demuxer=h263 --enable-parser=h263</build>
+    <guid>33363248-0000-0010-8000-00aa00389b71</guid>
+  </codec>
+
+  <codec>
+    <name>TechSmith2</name>
+    <type>Video</type>
+    <AVCodecID>AV_CODEC_ID_TSCC2</AVCodecID>
+    <MFType>MFVideoFormat_tsc2</MFType>
+    <build>--enable-decoder=tscc2</build>
+    <guid>32637374-0000-0010-8000-00AA00389B71</guid>
+  </codec>
+
+  <codec>
+    <name>SorensonSpark</name>
+    <type>Video</type>
+    <AVCodecID>AV_CODEC_ID_FLV1</AVCodecID>
+    <MFType>MFVideoFormat_FLV1</MFType>
+    <build>--enable-decoder=flv</build>
+    <guid>31564c46-0000-0010-8000-00AA00389B71</guid>
+  </codec>
+
+  <codec>
+    <name>Fraps</name>
+    <type>Video</type>
+    <AVCodecID>AV_CODEC_ID_FRAPS</AVCodecID>
+    <MFType>MFVideoFormat_FPS1</MFType>
+    <build>--enable-decoder=fraps</build>
+    <guid>31535046-0000-0010-8000-00AA00389B71</guid>
+  </codec>
+
+  <codec>
+    <name>FIC</name>
+    <type>Video</type>
+    <AVCodecID>AV_CODEC_ID_FIC</AVCodecID>
+    <MFType>MFVideoFormat_FICV</MFType>
+    <build>--enable-decoder=fic</build>
+    <guid>56434946-0000-0010-8000-00AA00389B71</guid>
+  </codec>
+
+  <codec>
+    <name>Cinepak</name>
+    <type>Video</type>
+    <AVCodecID>AV_CODEC_ID_CINEPAK</AVCodecID>
+    <MFType>MFVideoFormat_cvid</MFType>
+    <build>--enable-decoder=cinepak</build>
+    <guid>64697663-0000-0010-8000-00AA00389B71</guid>
+    <!-- {"6170636E-767A-494D-B478-F29D25DC9037","MPEG4Format_Video_cvid"} -->
+  </codec>
+
+  <codec>
+    <name>VP60</name>
+    <type>Video</type>
+    <AVCodecID>AV_CODEC_ID_VP6</AVCodecID>
+    <MFType>MFVideoFormat_VP60</MFType>
+    <build>--enable-decoder=vp6</build>
+    <guid>30365056-0000-0010-8000-00AA00389B71</guid>
+  </codec>
+
+  <codec>
+    <name>VP61</name>
+    <type>Video</type>
+    <AVCodecID>AV_CODEC_ID_VP6</AVCodecID>
+    <MFType>MFVideoFormat_VP61</MFType>
+    <build>--enable-decoder=vp6f</build>
+    <guid>31365056-0000-0010-8000-00AA00389B71</guid>
+  </codec>
+
+  <codec>
+    <name>VP62</name>
+    <type>Video</type>
+    <AVCodecID>AV_CODEC_ID_VP6</AVCodecID>
+    <MFType>MFVideoFormat_VP62</MFType>
+    <build>--enable-decoder=vp6a</build>
+    <guid>32365056-0000-0010-8000-00AA00389B71</guid>
+  </codec>
+
+  <!-- Audio Raw Types -->
+  <rawtype>
+    <name>Float</name>
+    <type>Audio</type>
+    <AVFormat>AV_SAMPLE_FMT_FLT</AVFormat>
+    <MFType>MFAudioFormat_Float</MFType>
+    <guid>00000003-0000-0010-8000-00aa00389b71</guid>
+  </rawtype>
+
+  <!-- Video Raw Types, only NV12 works -->
+  <rawtype>
+    <name>NV12</name>
+    <type>Video</type>
+    <AVFormat>AV_PIX_FMT_NV12</AVFormat>
+    <MFType>MFVideoFormat_NV12</MFType>
+    <guid>3231564e-0000-0010-8000-00aa00389b71</guid>
+  </rawtype>
+
+  <!-- Containers -->
+  <container>
+    <name>OGG</name>
+    <extension>.ogg</extension>
+    <extension>.ogv</extension>
+    <extension>.oga</extension>
+    <extension>.ogx</extension>
+    <extension>.ogm</extension>
+    <extension>.opus</extension>
+    <mime>audio/ogg</mime>
+    <mime>video/ogg</mime>
+    <mime>application/ogg</mime>
+    <build>--enable-demuxer=ogg</build>
+  </container>
+
+  <container>
+    <name>FLV</name>
+    <extension>.flv</extension>
+    <extension>.f4v</extension>
+    <extension>.f4p</extension>
+    <extension>.f4a</extension>
+    <extension>.f4b</extension>
+
+    <mime>video/x-flv</mime>
+
+    <build>--enable-demuxer=flv --enable-decoder=flv</build>
+  </container>
+
+</codecs>

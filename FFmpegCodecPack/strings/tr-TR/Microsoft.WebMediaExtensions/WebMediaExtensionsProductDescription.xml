@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProductDescription language="en-us" xmlns="http://schemas.microsoft.com/appx/2012/ProductDescription" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Release="1808">
+
+  <!-- Valid length: 200 character limit -->
+  <AppStoreName>
+    <!-- This is optional.  AppStoreName is typically extracted from your package's AppxManifest DisplayName property. -->
+    Web Medyası Uzantıları
+  </AppStoreName>
+
+  <Keywords>
+    <!-- Valid length: 45 character limit, up to 7 -->
+    <Keyword>ogg</Keyword>
+    <Keyword>vorbis</Keyword>
+    <Keyword>theora</Keyword>
+    <Keyword>kod çözücü</Keyword>
+    <Keyword/>
+    <Keyword/>
+    <Keyword/>
+  </Keywords>
+   <!-- Valid length: 10000 character limit -->
+   <Description>
+Web'de karşılaşılan açık kaynaklı video biçimlerini yürütün. Bu, OGG video kapsayıcısında saklanan video dosyalarını ve Vorbis veya Theora kod çözücülerini kullanan videoları içerir. Web Medyası Uzantıları paketini yükledikten sonra Microsoft Edge'de veya Windows 10'da yüklü bir video uygulamasında bu tür videoları yürütebilirsiniz.
+
+Dâhil olan teknolojiler:
+• OGG Kapsayıcı Ayrıştırıcısı
+• Vorbis Kod Çözücü
+• Theora Kod Çözücü
+   </Description>
+
+   <!-- Valid length: 1500 character limit, optional -->
+   <ReleaseNotes>
+      İlk sürüm.
+   </ReleaseNotes>
+
+  <ScreenshotCaptions>
+    <!-- Valid length: 200 character limit, up to 9 elements per platform -->
+    <!-- Valid attributes: any of DesktopImage, MobileImage, XboxImage, SurfaceHubImage, and HoloLensImage -->
+    <Caption DesktopImage="wme-screenshot.png" MobileImage="wme-screenshot.png" XboxImage="wme-screenshot.png" SurfaceHubImage="wme-screenshot.png" HoloLensImage="wme-screenshot.png">
+    Web Medyası Uzantıları</Caption>
+  </ScreenshotCaptions>
+
+   <AppFeatures>
+     <!-- Valid length: 200 character limit, up to 20 -->
+     <AppFeature>OGG, Vorbis ve Theora kodlanmış içeriğini yürütmek için Windows 10'u genişletir.</AppFeature>
+   </AppFeatures>
+
+   <RecommendedHardware>
+      <!-- Valid length: 200 character limit, up to 11 -->
+   </RecommendedHardware>
+
+   <!-- Valid length: 200 character limit -->
+   <CopyrightAndTrademark>
+     (c) 2017 Microsoft
+   </CopyrightAndTrademark>
+
+   <!-- Valid length: 10000 character limit -->
+   <AdditionalLicenseTerms>
+	https://go.microsoft.com/fwlink/?LinkId=822631
+   </AdditionalLicenseTerms>
+
+   <!-- Valid length: 2048 character limit -->
+   <WebsiteURL>
+   </WebsiteURL>
+
+   <!-- Valid length: 2048 character limit -->
+   <SupportContactInfo>
+	https://support.microsoft.com/products/windows?os=windows-10
+   </SupportContactInfo>
+
+   <!-- Valid length: 2048 character limit -->
+   <PrivacyPolicyURL>
+     https://go.microsoft.com/fwlink/?LinkId=521839
+   </PrivacyPolicyURL>
+
+</ProductDescription>

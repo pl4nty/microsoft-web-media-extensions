@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProductDescription language="en-us" xmlns="http://schemas.microsoft.com/appx/2012/ProductDescription" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Release="1808">
+
+  <!-- Valid length: 200 character limit -->
+  <AppStoreName>
+    <!-- This is optional.  AppStoreName is typically extracted from your package's AppxManifest DisplayName property. -->
+    Rozšíření pro webová média
+  </AppStoreName>
+
+  <Keywords>
+    <!-- Valid length: 45 character limit, up to 7 -->
+    <Keyword>ogg</Keyword>
+    <Keyword>vorbis</Keyword>
+    <Keyword>theora</Keyword>
+    <Keyword>kodek</Keyword>
+    <Keyword/>
+    <Keyword/>
+    <Keyword/>
+  </Keywords>
+   <!-- Valid length: 10000 character limit -->
+   <Description>
+Budete moct přehrávat open source videoformáty, které se v současnosti používají na webu. To zahrnuje i videosoubory uložené v kontejnerech videí OGG a videa používající kodeky Vorbis nebo Theora. Po instalaci Rozšíření pro webová média budete moct tyto druhy videí přehrávat v prohlížeči Microsoft Edge nebo ve videoaplikaci nainstalované ve Windows 10.
+
+Zahrnuté technologie:
+• Analyzátor kontejnerů OGG
+• Dekodér Vorbis
+• Dekodér Theora
+   </Description>
+
+   <!-- Valid length: 1500 character limit, optional -->
+   <ReleaseNotes>
+      Počáteční vydání
+   </ReleaseNotes>
+
+  <ScreenshotCaptions>
+    <!-- Valid length: 200 character limit, up to 9 elements per platform -->
+    <!-- Valid attributes: any of DesktopImage, MobileImage, XboxImage, SurfaceHubImage, and HoloLensImage -->
+    <Caption DesktopImage="wme-screenshot.png" MobileImage="wme-screenshot.png" XboxImage="wme-screenshot.png" SurfaceHubImage="wme-screenshot.png" HoloLensImage="wme-screenshot.png">
+    Rozšíření pro webová média</Caption>
+  </ScreenshotCaptions>
+
+   <AppFeatures>
+     <!-- Valid length: 200 character limit, up to 20 -->
+     <AppFeature>Rozšíří systém Windows 10 tak, aby umožňoval přehrávání obsahu kódovaného ve formátu OGG, Vorbis a Theora.</AppFeature>
+   </AppFeatures>
+
+   <RecommendedHardware>
+      <!-- Valid length: 200 character limit, up to 11 -->
+   </RecommendedHardware>
+
+   <!-- Valid length: 200 character limit -->
+   <CopyrightAndTrademark>
+     (c) 2017 Microsoft
+   </CopyrightAndTrademark>
+
+   <!-- Valid length: 10000 character limit -->
+   <AdditionalLicenseTerms>
+	https://go.microsoft.com/fwlink/?LinkId=822631
+   </AdditionalLicenseTerms>
+
+   <!-- Valid length: 2048 character limit -->
+   <WebsiteURL>
+   </WebsiteURL>
+
+   <!-- Valid length: 2048 character limit -->
+   <SupportContactInfo>
+	https://support.microsoft.com/products/windows?os=windows-10
+   </SupportContactInfo>
+
+   <!-- Valid length: 2048 character limit -->
+   <PrivacyPolicyURL>
+     https://go.microsoft.com/fwlink/?LinkId=521839
+   </PrivacyPolicyURL>
+
+</ProductDescription>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProductDescription language="en-us" xmlns="http://schemas.microsoft.com/appx/2012/ProductDescription" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Release="1701">
+
+  <!-- Valid length: 200 character limit -->
+  <AppStoreName>
+    <!-- This is optional.  AppStoreName is typically extracted from your package's AppxManifest DisplayName property. -->
+    वेब मीडिया एक्सटेंशन
+  </AppStoreName>
+
+  <Keywords>
+    <!-- Valid length: 45 character limit, up to 7 -->
+    <Keyword>ogg</Keyword>
+    <Keyword>vorbis</Keyword>
+    <Keyword>theora</Keyword>
+    <Keyword>कोडेक</Keyword>
+    <Keyword/>
+    <Keyword/>
+    <Keyword/>
+  </Keywords>
+   <!-- Valid length: 10000 character limit -->
+   <Description>
+वेब मीडिया एक्सटेंशन, पैकेज में Microsoft Edge और Windows 10 का विस्तार कर देता है, ताकि वेब पर आम तौर पर मिलने वाले ओपन सोर्स स्वरूप को समर्थन मिल सके. इस मीडिया एक्सटेंशन पैकेज को इंस्टॉल करके, उपयोगकर्ता मूल रूप से OGG Container में वितरित की गई सामग्री को चला सकेंगे या Vorbis या Theora कोडेक का उपयोग करके एन्कोड कर सकेंगे. इंस्टॉल हो जाने के बाद, यह एक्सटेंशन स्वचालित रूप से वेब साइटों और ऐप दोनों के द्वारा उपयोग किया जाता है, जिसमें उपयोगकर्ता को कोई भी कार्रवाई करने की आवश्यकता नहीं होती है. आज ही बस Microsoft Edge और ऐप में नई सामग्री इंस्टॉल करें और चलाएँ!
+
+शामिल की गई तकनीकें:
+•	OGG Container Parser
+•	Vorbis Decoder
+•	Theora Decoder
+
+   </Description>
+
+   <!-- Valid length: 1500 character limit, optional -->
+   <ReleaseNotes>
+      प्रारंभिक रिलीज़.
+   </ReleaseNotes>
+
+  <ScreenshotCaptions>
+    <!-- Valid length: 200 character limit, up to 9 elements per platform -->
+    <!-- Valid attributes: any of DesktopImage, MobileImage, XboxImage, SurfaceHubImage, and HoloLensImage -->
+    <Caption DesktopImage="wme-screenshot.png" MobileImage="wme-screenshot.png" XboxImage="wme-screenshot.png" SurfaceHubImage="wme-screenshot.png" HoloLensImage="wme-screenshot.png">
+    वेब मीडिया एक्सटेंशन</Caption>
+  </ScreenshotCaptions>
+
+   <AppFeatures>
+     <!-- Valid length: 200 character limit, up to 20 -->
+     <AppFeature>OGG, Vorbis और Theora से एन्कोड की गई सामग्री को चलाने के लिए Windows 10 का विस्तार करता है.</AppFeature>
+   </AppFeatures>
+
+   <RecommendedHardware>
+      <!-- Valid length: 200 character limit, up to 11 -->
+   </RecommendedHardware>
+
+   <!-- Valid length: 200 character limit -->
+   <CopyrightAndTrademark>
+     (c) 2017 Microsoft
+   </CopyrightAndTrademark>
+
+   <!-- Valid length: 10000 character limit -->
+   <AdditionalLicenseTerms>
+	https://go.microsoft.com/fwlink/?LinkId=529064
+   </AdditionalLicenseTerms>
+
+   <!-- Valid length: 2048 character limit -->
+   <WebsiteURL>
+   </WebsiteURL>
+
+   <!-- Valid length: 2048 character limit -->
+   <SupportContactInfo>
+	https://support.microsoft.com/products/windows?os=windows-10
+   </SupportContactInfo>
+
+   <!-- Valid length: 2048 character limit -->
+   <PrivacyPolicyURL>
+     https://go.microsoft.com/fwlink/?LinkId=521839
+   </PrivacyPolicyURL>
+
+</ProductDescription>

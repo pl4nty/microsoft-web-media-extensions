@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>b5488104-96b5-44b6-abae-9a6ec8bac9a4</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="internals">
+      <UniqueIdentifier>{32b0fd48-cd5e-4c20-9c76-0d148300bae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{07f3b89a-b222-42a2-9182-a705e4340f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codecs">
+      <UniqueIdentifier>{8f3f2b1b-a5f3-4bb8-906d-991525650267}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="FFmpegDecoderMFT.cpp" />
+    <ClCompile Include="VideoTransformHelper.cpp">
+      <Filter>internals</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioTransformHelper.cpp">
+      <Filter>internals</Filter>
+    </ClCompile>
+    <ClCompile Include="FFmpegTypes.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FFmpegContext.cpp">
+      <Filter>internals</Filter>
+    </ClCompile>
+    <ClCompile Include="DecoderBase.cpp" />
+    <ClCompile Include="FFmpegDecoderService.cpp" />
+    <ClCompile Include="FFmpegVorbis.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugUtils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="FFmpegDecoderMFT.h" />
+    <ClInclude Include="AudioTransformHelper.h">
+      <Filter>internals</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoTransformHelper.h">
+      <Filter>internals</Filter>
+    </ClInclude>
+    <ClInclude Include="FFmpegTypes.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FFmpegContext.h">
+      <Filter>internals</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoderBase.h" />
+    <ClInclude Include="FFmpegTransformHelper.h">
+      <Filter>internals</Filter>
+    </ClInclude>
+    <ClInclude Include="FFmpegDecoderService.h" />
+    <ClInclude Include="FFmpegVorbis.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="FFmpegCodecs.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugUtils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtraDefinitions.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

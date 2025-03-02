@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Modules>
+  <Module
+    name="Microsoft.WebMediaExtensions"
+    tdbuildteamid="83">
+  <File
+    location="Microsoft.WebMediaExtensions"
+    path="%BUILD_SOURCESDIRECTORY%\FFmpegCodecPack\strings\en-US\WebMediaExtensionsProductDescription.xml" />
+  <File
+    location="Microsoft.WebMediaExtensions"
+    path="%BUILD_SOURCESDIRECTORY%\FFmpegCodecPack\strings\en-US\Resources.resw" />
+  </Module>
+</Modules>

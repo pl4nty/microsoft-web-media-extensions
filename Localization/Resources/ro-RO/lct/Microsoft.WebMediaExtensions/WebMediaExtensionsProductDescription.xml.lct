@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="WebMediaExtensionsProductDescription.xml" PsrId="22" FileType="1" SrcCul="en-US" TgtCul="ro-RO" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\WDG_StoreApps\WDG_StoreApps_NoCultureCode_PDP.lsconfig" Type="Config" />
+  <Item ItemId=";&lt;AdditionalLicenseTerms&gt;" ItemType="0" PsrId="210" Leaf="false">
+    <Disp Icon="Str" Disp="true" LocTbl="false" />
+    <Item ItemId="0;App_AddtionalLiceseTerms" ItemType="42;XML:Text" PsrId="210" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[https://go.microsoft.com/fwlink/?LinkId=529064]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[https://go.microsoft.com/fwlink/?LinkId=529064]]></Val>
+        </Tgt>
+        <Prev Cat="AppData">
+          <Val><![CDATA[http://go.microsoft.com/fwlink/?linkid=246338]]></Val>
+        </Prev>
+      </Str>
+      <Disp Icon="Str" Order="21" />
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[{MaxLength=10000} Additional License Terms]]></Cmt>
+      </Cmts>
+    </Item>
+  </Item>
+  <Item ItemId=";&lt;AppFeature&gt;" ItemType="0" PsrId="210" Leaf="false">
+    <Disp Icon="Str" Disp="true" LocTbl="false" />
+    <Item ItemId="0;App_feature1" ItemType="42;XML:Text" PsrId="210" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[Extends Windows 10 to play OGG, Vorbis and Theora encoded content.]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[Extinde Windows 10 pentru a reda conținut codificat OGG, Vorbis și Theora.]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="17" />
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[{MaxLength=200} App Feature 1]]></Cmt>
+      </Cmts>
+    </Item>
+  </Item>
+  <Item ItemId=";&lt;AppStoreName&gt;" ItemType="0" PsrId="210" Leaf="false">
+    <Disp Icon="Str" Disp="true" LocTbl="false" />
+    <Item ItemId="0;App_StoreName" ItemType="42;XML:Text" PsrId="210" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[Web Media Extensions]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[Extensii media web]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="1" />
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[{MaxLength=200} App StoreName]]></Cmt>
+      </Cmts>
+    </Item>
+  </Item>
+  <Item ItemId=";&lt;Caption&gt;" ItemType="0" PsrId="210" Leaf="false">
+    <Disp Icon="Str" Disp="true" LocTbl="false" />
+    <Item ItemId="0;App_caption1" ItemType="42;XML:Text" PsrId="210" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[Web Media Extensions]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[Extensii media web]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="15" />
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[{MaxLength=200} Screenshot caption 1]]></Cmt>
+      </Cmts>
+    </Item>
+  </Item>
+  <Item ItemId=";&lt;CopyrightAndTrademark&gt;" ItemType="0" PsrId="210" Leaf="false">
+    <Disp Icon="Str" Disp="true" LocTbl="false" />
+    <Item ItemId="0;App_CopyrightandTrademark" ItemType="42;XML:Text" PsrId="210" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[(c) 2017 Microsoft]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[(c) 2017 Microsoft]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="19" />
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[{MaxLength=200} Copyright and Trademark]]></Cmt>
+      </Cmts>
+    </Item>
+  </Item>
+  <Item ItemId=";&lt;Description&gt;" ItemType="0" PsrId="210" Leaf="false">
+    <Disp Icon="Str" Disp="true" LocTbl="false" />
+    <Item ItemId="0;App_Description" ItemType="42;XML:Text" PsrId="210" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[The Web Media Extensions package extends Microsoft Edge and Windows 10 to support open source formats commonly encountered on the web. By installing this Media Extension package, users will be able to natively play content delivered in the OGG container or encoded using the Vorbis or Theora codecs. Once installed, this extension is automatically used by both web sites and apps with no user action required. Simply install and play new content in Microsoft Edge and apps today!]D;]A;]D;]A;Included Technologies:]D;]A;•	OGG Container Parser]D;]A;•	Vorbis Decoder]D;]A;•	Theora Decoder]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[Pachetul de extensii media web extinde Microsoft Edge și Windows 10 pentru a accepta formatele open source întâlnite frecvent pe web. Prin instalarea acestui pachet de extensii media, utilizatorii vor putea să redea nativ conținutul livrat în containerul OGG sau codificat cu codecurile Vorbis sau Theora. După instalare, această extensie este utilizată automat atât de site-urile web, cât și de aplicații, fără să fie necesare acțiuni din partea utilizatorilor. Trebuie doar să instalați și puteți reda imediat conținut nou în Microsoft Edge și în aplicații!]D;]A;]D;]A;Tehnologii incluse:]D;]A;•	Analizor container OGG]D;]A;•	Decodor Vorbis]D;]A;•	Decodor Theora]]></Val>
+        </Tgt>
+        <Prev Cat="AppData">
+          <Val><![CDATA[The Web Media Extensions package extends Microsoft Edge and Windows 10 to support open source formats commonly encountered on the web. By installing this Media Extension package, users will be able to natively play content delivered in the OGG container or encoded using the Vorbis or Theora codecs. Once installed, this extension is automatically used by both web sites and apps with no user action required. Simply install and play new content in Microsoft Edge and apps today! ]D;]A; ]D;]A;Included Technologies:]D;]A;•	OGG Container Parser]D;]A;•	Vorbis Decoder]D;]A;•	Theora Decoder]]></Val>
+        </Prev>
+      </Str>
+      <Disp Icon="Str" Order="11" />
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[{MaxLength=10000} App Description]]></Cmt>
+      </Cmts>
+    </Item>
+  </Item>
+  <Item ItemId=";&lt;Keyword&gt;" ItemType="0" PsrId="210" Leaf="false">
+    <Disp Icon="Str" Disp="true" LocTbl="false" />
+    <Item ItemId="0;App_keyword1" ItemType="42;XML:Text" PsrId="210" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[ogg]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[ogg]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="3" />
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[{MaxLength=45} App keyword 1]]></Cmt>
+      </Cmts>
+    </Item>
+    <Item ItemId="0;App_keyword2" ItemType="42;XML:Text" PsrId="210" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[vorbis]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[vorbis]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="5" />
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[{MaxLength=45} App keyword 2]]></Cmt>
+      </Cmts>
+    </Item>
+    <Item ItemId="0;App_keyword3" ItemType="42;XML:Text" PsrId="210" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[theora]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[theora]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="7" />
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[{MaxLength=45} App keyword 3]]></Cmt>
+      </Cmts>
+    </Item>
+    <Item ItemId="0;App_keyword4" ItemType="42;XML:Text" PsrId="210" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[codec]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[codec]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="9" />
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[{MaxLength=45} App keyword 4]]></Cmt>
+      </Cmts>
+    </Item>
+  </Item>
+  <Item ItemId=";&lt;PrivacyPolicyURL&gt;" ItemType="0" PsrId="210" Leaf="false">
+    <Disp Icon="Str" Disp="true" LocTbl="false" />
+    <Item ItemId="0;App_PrivacyURL" ItemType="42;XML:Text" PsrId="210" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[https://go.microsoft.com/fwlink/?LinkId=521839]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[https://go.microsoft.com/fwlink/?LinkId=521839]]></Val>
+        </Tgt>
+        <Prev Cat="AppData">
+          <Val><![CDATA[https://privacy.microsoft.com/en-us/privacystatement]]></Val>
+        </Prev>
+      </Str>
+      <Disp Icon="Str" Order="25" />
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[{MaxLength=2048} Privacy Policy URL]]></Cmt>
+      </Cmts>
+    </Item>
+  </Item>
+  <Item ItemId=";&lt;ReleaseNotes&gt;" ItemType="0" PsrId="210" Leaf="false">
+    <Disp Icon="Str" Disp="true" LocTbl="false" />
+    <Item ItemId="0;App_ReleaseNotes" ItemType="42;XML:Text" PsrId="210" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[Initial release.]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[Versiune inițială.]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="13" />
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[{MaxLength=1500} App Release Note]]></Cmt>
+      </Cmts>
+    </Item>
+  </Item>
+  <Item ItemId=";&lt;SupportContactInfo&gt;" ItemType="0" PsrId="210" Leaf="false">
+    <Disp Icon="Str" Disp="true" LocTbl="false" />
+    <Item ItemId="0;App_SupportContactInfo" ItemType="42;XML:Text" PsrId="210" InstFlg="true" Leaf="true">
+      <Str Cat="AppData">
+        <Val><![CDATA[https://support.microsoft.com/products/windows?os=windows-10]]></Val>
+        <Tgt Cat="AppData" Stat="Loc" Orig="New">
+          <Val><![CDATA[https://support.microsoft.com/products/windows?os=windows-10]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="23" />
+      <Cmts>
+        <Cmt Name="Dev"><![CDATA[{MaxLength=2048} Support Contact Info]]></Cmt>
+      </Cmts>
+    </Item>
+  </Item>
+</LCX>

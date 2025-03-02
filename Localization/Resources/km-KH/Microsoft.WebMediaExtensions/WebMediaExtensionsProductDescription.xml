@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProductDescription language="en-us" xmlns="http://schemas.microsoft.com/appx/2012/ProductDescription" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Release="1701">
+
+  <!-- Valid length: 200 character limit -->
+  <AppStoreName>
+    <!-- This is optional.  AppStoreName is typically extracted from your package's AppxManifest DisplayName property. -->
+    កន្ទុយឯកសារមេឌៀវិប
+  </AppStoreName>
+
+  <Keywords>
+    <!-- Valid length: 45 character limit, up to 7 -->
+    <Keyword>ogg</Keyword>
+    <Keyword>vorbis</Keyword>
+    <Keyword>theora</Keyword>
+    <Keyword>កូឌិក</Keyword>
+    <Keyword/>
+    <Keyword/>
+    <Keyword/>
+  </Keywords>
+   <!-- Valid length: 10000 character limit -->
+   <Description>
+កញ្ចប់ពង្រីកមេឌៀវិប ពង្រីក Microsoft Edge និង Windows 10 ដើម្បីគាំទ្រទម្រង់ប្រភពចំហរដែលជួបប្រទះជាធម្មតាលើវិប។ ដោយដំឡើងកញ្ចប់ពង្រីកមេឌៀនេះ អ្នកប្រើនឹងអាចលេងដោយដើមនូវមាតិកាដែលបានបញ្ជូនក្នុងប្រដាប់ដាក់ OGG ឬដែលមានអ៊ិនកូដដោយប្រើកូឌិក Vorbis ឬ Theora។នៅពេលបានដំឡើង ការពង្រីកនេះគឺត្រូវបានប្រើដោយស្វ័យប្រវត្តិដោយតំបន់វិប និងកម្មវិធីទាំងពីរដោយគ្មានសកម្មភាពអ្នកប្រើត្រូវបានតម្រូវ។ដំឡើង និងលេងយ៉ាងសាមញ្ញនូវមាតិកាថ្មីក្នុង Microsoft Edge និងកម្មវិធីថ្ងៃនេះ!
+
+បច្ចេកវិទ្យាដែលរួមបញ្ចូល៖
+•	ប្រដាប់ញែកប្រដាប់ដាក់ OGG
+•	ប្រដាប់ឌិកូដ Vorbis
+•	ប្រដាប់ឌិកូដ Theora
+
+   </Description>
+
+   <!-- Valid length: 1500 character limit, optional -->
+   <ReleaseNotes>
+      ការចេញផ្សាយ​ដំបូង។
+   </ReleaseNotes>
+
+  <ScreenshotCaptions>
+    <!-- Valid length: 200 character limit, up to 9 elements per platform -->
+    <!-- Valid attributes: any of DesktopImage, MobileImage, XboxImage, SurfaceHubImage, and HoloLensImage -->
+    <Caption DesktopImage="wme-screenshot.png" MobileImage="wme-screenshot.png" XboxImage="wme-screenshot.png" SurfaceHubImage="wme-screenshot.png" HoloLensImage="wme-screenshot.png">
+    ការពង្រីកមេឌៀវិប</Caption>
+  </ScreenshotCaptions>
+
+   <AppFeatures>
+     <!-- Valid length: 200 character limit, up to 20 -->
+     <AppFeature>ពង្រីក Windows 10 ដើម្បីលេងមាតិកាដែលអ៊ិនកូដ OGG, Vorbis និង Theora។</AppFeature>
+   </AppFeatures>
+
+   <RecommendedHardware>
+      <!-- Valid length: 200 character limit, up to 11 -->
+   </RecommendedHardware>
+
+   <!-- Valid length: 200 character limit -->
+   <CopyrightAndTrademark>
+     (c) 2017 Microsoft
+   </CopyrightAndTrademark>
+
+   <!-- Valid length: 10000 character limit -->
+   <AdditionalLicenseTerms>
+	https://go.microsoft.com/fwlink/?LinkId=529064
+   </AdditionalLicenseTerms>
+
+   <!-- Valid length: 2048 character limit -->
+   <WebsiteURL>
+   </WebsiteURL>
+
+   <!-- Valid length: 2048 character limit -->
+   <SupportContactInfo>
+	https://support.microsoft.com/products/windows?os=windows-10
+   </SupportContactInfo>
+
+   <!-- Valid length: 2048 character limit -->
+   <PrivacyPolicyURL>
+     https://go.microsoft.com/fwlink/?LinkId=521839
+   </PrivacyPolicyURL>
+
+</ProductDescription>

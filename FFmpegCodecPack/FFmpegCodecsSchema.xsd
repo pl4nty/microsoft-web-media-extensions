@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FFmpegCodecsSchema"
+    targetNamespace="http://tempuri.org/FFmpegCodecsSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/FFmpegCodecsSchema.xsd"
+    xmlns:mstns="http://tempuri.org/FFmpegCodecsSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:element name="codecs">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- Codec -->
+        <xs:element name="codec" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string"></xs:element>
+              <xs:element name="type">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="Audio" />
+                    <xs:enumeration value="Video" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AVCodecID" type="xs:string"></xs:element>
+              <xs:element name="MFType" type="xs:string"></xs:element>
+              <xs:element name="build" type="xs:string"></xs:element>
+              <xs:element name="guid" type="xs:string"></xs:element>
+              <xs:element name="MkvCodecId" type="xs:string" minOccurs="0"></xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <!-- Raw Type -->
+        <xs:element name="rawtype" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:all>
+              <xs:element name="name" type="xs:string"></xs:element>
+              <xs:element name="type">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="Audio" />
+                    <xs:enumeration value="Video" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AVFormat" type="xs:string"></xs:element>
+              <xs:element name="MFType" type="xs:string"></xs:element>
+              <xs:element name="guid" type="xs:string"></xs:element>
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- Container -->
+        <xs:element name="container" minOccurs="0" maxOccurs="unbounded">
+          <!-- name, file ext, mime type, build -->
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string" minOccurs="1"></xs:element>
+              
+              <xs:element name="extension" type="xs:string" minOccurs="1" maxOccurs="unbounded"></xs:element>
+              <xs:element name="mime" type="xs:string" minOccurs="1" maxOccurs="unbounded"></xs:element>
+              <xs:element name="build" type="xs:string" minOccurs="1"></xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>

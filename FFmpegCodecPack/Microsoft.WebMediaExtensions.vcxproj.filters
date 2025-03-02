@@ -1,0 +1,862 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>9465a5c6-fc6d-4d31-bf8b-dd654bcdbd89</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>6d1cae53-860c-41de-bae2-a5cd4a6536a3</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Strings">
+      <UniqueIdentifier>{6409fb8d-3ee3-4290-b127-fbdf4fa63c88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\en-US">
+      <UniqueIdentifier>{d9eae7f7-521f-4916-a034-db0f29f1c503}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="codecpacks_key.pfx" />
+    <None Include="..\FFmpegInterop\ffmpeg\Build\Windows10\$(PlatformTarget)\bin\avcodec-58_ms.dll" />
+    <None Include="..\FFmpegInterop\ffmpeg\Build\Windows10\$(PlatformTarget)\bin\avdevice-58_ms.dll" />
+    <None Include="..\FFmpegInterop\ffmpeg\Build\Windows10\$(PlatformTarget)\bin\avfilter-7_ms.dll" />
+    <None Include="..\FFmpegInterop\ffmpeg\Build\Windows10\$(PlatformTarget)\bin\avformat-58_ms.dll" />
+    <None Include="..\FFmpegInterop\ffmpeg\Build\Windows10\$(PlatformTarget)\bin\avutil-56_ms.dll" />
+    <None Include="..\FFmpegInterop\ffmpeg\Build\Windows10\$(PlatformTarget)\bin\swresample-3_ms.dll" />
+    <None Include="..\FFmpegInterop\ffmpeg\Build\Windows10\$(PlatformTarget)\bin\swscale-5_ms.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\AppList.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-16_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-20.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-20_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-24.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-30.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-30_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-32_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-36.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-36_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-40.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-40_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-48_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-60.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-60_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-64.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-64_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-72.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-72_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-80.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-80_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-96.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-96_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AppList.targetsize-256_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BadgeLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BadgeLogo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BadgeLogo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BadgeLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BadgeLogo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\MedTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\MedTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\MedTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\MedTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\MedTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.scale-100_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.scale-125_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.scale-150_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.scale-200_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.scale-400_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-16_altform-unplated_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-16_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-20_altform-unplated_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-20_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-24_altform-unplated_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-24_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-30_altform-unplated_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-30_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-32_altform-unplated_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-32_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-36_altform-unplated_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-36_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-40_altform-unplated_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-40_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-48_altform-unplated_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-48_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-60_altform-unplated_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-60_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-64_altform-unplated_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-64_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-72_altform-unplated_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-72_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-80_altform-unplated_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-80_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-96_altform-unplated_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-96_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-256_altform-unplated_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\AppList.targetsize-256_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\BadgeLogo.scale-100_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\BadgeLogo.scale-125_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\BadgeLogo.scale-150_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\BadgeLogo.scale-200_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\BadgeLogo.scale-400_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\LargeTile.scale-100_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\LargeTile.scale-125_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\LargeTile.scale-150_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\LargeTile.scale-200_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\LargeTile.scale-400_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\MedTile.scale-100_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\MedTile.scale-125_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\MedTile.scale-150_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\MedTile.scale-200_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\MedTile.scale-400_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\SmallTile.scale-100_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\SmallTile.scale-125_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\SmallTile.scale-150_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\SmallTile.scale-200_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\SmallTile.scale-400_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\SplashScreen.scale-100_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\SplashScreen.scale-125_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\SplashScreen.scale-150_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\SplashScreen.scale-200_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\SplashScreen.scale-400_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\StoreLogo.scale-100_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\StoreLogo.scale-125_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\StoreLogo.scale-150_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\StoreLogo.scale-200_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\StoreLogo.scale-400_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\WideTile.scale-100_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\WideTile.scale-125_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\WideTile.scale-150_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\WideTile.scale-200_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-black\WideTile.scale-400_contrast-black.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.scale-100_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.scale-125_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.scale-150_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.scale-200_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.scale-400_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-16_altform-unplated_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-16_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-20_altform-unplated_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-20_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-24_altform-unplated_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-24_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-30_altform-unplated_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-30_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-32_altform-unplated_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-32_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-36_altform-unplated_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-36_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-40_altform-unplated_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-40_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-48_altform-unplated_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-48_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-60_altform-unplated_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-60_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-64_altform-unplated_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-64_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-72_altform-unplated_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-72_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-80_altform-unplated_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-80_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-96_altform-unplated_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-96_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-256_altform-unplated_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\AppList.targetsize-256_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\BadgeLogo.scale-100_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\BadgeLogo.scale-125_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\BadgeLogo.scale-150_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\BadgeLogo.scale-200_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\BadgeLogo.scale-400_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\LargeTile.scale-100_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\LargeTile.scale-125_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\LargeTile.scale-150_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\LargeTile.scale-200_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\LargeTile.scale-400_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\MedTile.scale-100_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\MedTile.scale-125_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\MedTile.scale-150_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\MedTile.scale-200_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\MedTile.scale-400_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\SmallTile.scale-100_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\SmallTile.scale-125_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\SmallTile.scale-150_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\SmallTile.scale-200_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\SmallTile.scale-400_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\SplashScreen.scale-100_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\SplashScreen.scale-125_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\SplashScreen.scale-150_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\SplashScreen.scale-200_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\SplashScreen.scale-400_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\StoreLogo.scale-100_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\StoreLogo.scale-125_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\StoreLogo.scale-150_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\StoreLogo.scale-200_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\StoreLogo.scale-400_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\WideTile.scale-100_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\WideTile.scale-125_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\WideTile.scale-150_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\WideTile.scale-200_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\contrast-white\WideTile.scale-400_contrast-white.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Third Party Notices.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="strings\en-US\Resources.resw">
+      <Filter>Strings\en-US</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\ru-RU\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\sr-Latn-RS\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\sk-SK\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\pl-PL\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\nb-NO\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\ro-RO\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\tr-TR\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\ta-IN\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\pt-PT\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\sl-SI\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\sw-KE\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\uk-UA\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\te-IN\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\sv-SE\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\uz-Latn-UZ\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\zh-hans\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\vi-VN\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\nl-NL\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\th-TH\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\pt-BR\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\ms-MY\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\sq-AL\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\lv-LV\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\lt-LT\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\hr-HR\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\id-ID\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\ko\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\km-KH\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\zh-TW\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\it-IT\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\ml-IN\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\kn-IN\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\mk-MK\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\af-ZA\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\lo-LA\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\hi-IN\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\kk-KZ\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\de-DE\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\cs-CZ\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\be-BY\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\am-ET\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\ca-ES\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\bg-BG\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\az-Latn-AZ\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\bn-BD\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\ar-SA\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\da-DK\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\es-MX\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\et-EE\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\fa-IR\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\en-gb\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\eu-ES\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\el-GR\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\es-ES\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\fi-FI\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\fr-CA\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\fr-FR\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\fil-PH\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\hu-HU\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\he-IL\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\gl-ES\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\ja-JP\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\ha-Latn-NG\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\is-IS\Microsoft.WebMediaExtensions\Resources.resw">
+      <Filter>Strings</Filter>
+    </PRIResource>
+  </ItemGroup>
+</Project>

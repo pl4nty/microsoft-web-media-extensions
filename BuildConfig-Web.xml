@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Add Containers and Codecs you want in the build here. -->
+<!-- Metadata of each Codec and Container must be present in FFmpegCodecs.xml -->
+<!-- Can build pack with ONLY these using Out-FFmpegPack.ps1 .\BuildConfig.xml -->
+<FFmpegCodecPack
+    xmlns="http://tempuri.org/FFmpegBuildSchema.xsd"
+    xmlns:mstns="http://tempuri.org/FFmpegBuildSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+
+    definitions="./FFmpegCodecs.xml">
+
+  <!-- Audio Codecs -->
+  <codec>Vorbis</codec>
+  <codec sourceOnly="sourceOnly">Flac</codec>
+
+  <!-- Video Codecs -->
+  <codec>Theora</codec>
+
+  <!-- Output raw types -->
+  <rawtype>Float</rawtype>
+  <rawtype>NV12</rawtype>
+
+  <!-- Containers -->
+  <container>OGG</container>
+  
+</FFmpegCodecPack>
